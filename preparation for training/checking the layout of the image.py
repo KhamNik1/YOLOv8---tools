@@ -88,7 +88,7 @@ def draw_polygons_on_image(image_path, path):
     print(f"Processed: {image_path} -> {output_path}")
 
 # Path to the folder with images
-path = 'C:\\Users\\Nikita\\Desktop\\train'
+path = 'C:\\Users\\Desktop\\train'
 images = os.listdir(os.path.join(path, 'images'))
 
 num = 1
