@@ -17,6 +17,6 @@ def change_resolution_in_folder(folder, new_resolution):
             resized_image.save(image_path)
 
 # Example of usage
-image_folder = "C:\\Users\\Nikita\\Desktop\\dataset_1.7\\valid\\images"
+image_folder = "C:\\Users\\Desktop\\dataset_1.7\\valid\\images"
 new_resolution = (640, 640)  # Specify the new width and height values
 change_resolution_in_folder(image_folder, new_resolution)
